@@ -7,7 +7,6 @@
 
  const list = document.querySelector('.js-menu');
 
-//   const markup = items.map(menuTemplate).join('');
   const markup = menuTemplate(items);
   console.log(markup);
   list.insertAdjacentHTML('afterbegin', markup);
