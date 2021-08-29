@@ -1,6 +1,6 @@
  import items from "../src/menu.json";
  import menuTemplate from "../src/templates/list.hbs";
- import "./styles.css";
+ import "../src/styles.css";
 
  console.log(items)
  console.log(menuTemplate)
