@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"bcQp":[function(require,module,exports) {
 "use strict";require("./styles.css");const e={LIGHT:"light-theme",DARK:"dark-theme"},t=document.querySelector("body"),o=document.querySelector("#theme-switch-toggle");o.addEventListener("change",m);const c=localStorage.getItem("Theme");function d(){null===c&&(document.body.classList.add("light-theme"),localStorage.setItem("Theme","light-theme"))}function m(e){if(o.checked)return document.body.classList.remove("light-theme"),document.body.classList.add("dark-theme"),void localStorage.setItem("Theme","dark-theme");document.body.classList.remove("dark-theme"),document.body.classList.add("light-theme"),localStorage.setItem("Theme","light-theme")}d(),c===e.DARK&&(o.setAttribute("checked","checked"),document.body.classList.remove("light-theme"),document.body.classList.add("dark-theme"),localStorage.setItem("Theme","dark-theme"));
 },{"./styles.css":"Tnu0"}]},{},["bcQp"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/localstorage.5c1a1ed0.js.map
+//# sourceMappingURL=/goit-js-hw-10-food-servic/localstorage.5c1a1ed0.js.map
