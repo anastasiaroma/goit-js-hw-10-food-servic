@@ -10,13 +10,6 @@ const checkbox = document.querySelector('#theme-switch-toggle');
  
 checkbox.addEventListener('change', onThemeSwitchInput);
 
-
-  // const dataForStorage = JSON.stringify(Theme);
-  // console.log(dataForStorage);
-  // localStorage.setItem('Theme', dataForStorage);
-
-  // const storageCollection = JSON.parse(localStorage.getItem('Theme'));
-  //const dataFromStorage = storageCollection ? storageCollection : document.body.classList.add("light-theme");
   
 
 const savedTheme = localStorage.getItem('Theme');
