@@ -1,5 +1,5 @@
- import items from "./menu.json";
- import menuTemplate from "./templates/list.hbs";
+ import items from "../src/menu.json";
+ import menuTemplate from "../src/templates/list.hbs";
  import "./styles.css";
 
  console.log(items)
